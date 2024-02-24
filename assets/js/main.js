@@ -29,6 +29,8 @@ for (let i = 0; i < slides.length; i++) {
 
 
 
+
+
 // Bottoni
 const prevElement = document.querySelector(`.prima`)
 
