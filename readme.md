@@ -7,6 +7,8 @@
 
 # Steps
 - Creiamo una lista di immagini
+- Creiamo i bottini per far andare avanti e indietro le immagini
+
 
 
 
@@ -14,3 +16,5 @@
 - const/left
 - for
 - document.queryselector
+
+
