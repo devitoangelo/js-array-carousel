@@ -44,6 +44,22 @@ prevElement.addEventListener(`click`, function () {
 
 
 
+    activeImage--
+    console.log(activeImage);
+    if(activeImage < 0)
+    activeImage = slides.length -1;
+
+    // cambio della classe attiva
+    let cambioimmagine = document.querySelector(`img.attiva`)
+    console.log(cambioimmagine);
+
+    cambioimmagine.classList.remove(`attiva`)
+
+    //seleziona la nuoca classe
+    const allslides = document.querySelectorAll(`.slides img`)
+
+    console.log(allslides[activeImage]);
+    allslides[activeImage].classList.add(`attiva`)
 
 
 })
