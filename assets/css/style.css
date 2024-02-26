@@ -1,7 +1,9 @@
 /* immagini */
 img {
-width: 100%;
- 
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
 }
 
 
@@ -15,8 +17,6 @@ img:not(.attiva) {
     max-width: 800px;
     margin: auto;
     position: relative;
-   
-
 
 
 
